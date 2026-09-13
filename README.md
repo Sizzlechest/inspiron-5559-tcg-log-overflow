@@ -41,8 +41,9 @@ If a later update writes `dbx` anyway: suspend BitLocker, delete `dbx` in firmwa
 
 | File | What it is |
 |---|---|
-| [inspiron-5559-tcg-buffer-overflow.md](inspiron-5559-tcg-buffer-overflow.md) | Full RCA: corpus, buffer bracket, PCR replay vs TPM, before/after log 89 vs 96, size budget, servicing controls |
-| [wbcl.py](wbcl.py) | Stdlib Python 3 parser for Windows MeasuredBoot WBCL logs (legacy SHA-1 and crypto-agile) |
+| [docs/01-summary-evidence-fix.md](docs/01-summary-evidence-fix.md) | RCA §1–6: buffer bracket, corpus, before/after, size budget |
+| [docs/02-operations-open-questions.md](docs/02-operations-open-questions.md) | RCA §7–12: trade-off, servicing opt-out, falsified hypotheses, open questions |
+| [wbcl.py](wbcl.py) | Stdlib Python 3 parser for Windows MeasuredBoot WBCL logs |
 
 ```text
 python wbcl.py path\to\*.log --summary-only
